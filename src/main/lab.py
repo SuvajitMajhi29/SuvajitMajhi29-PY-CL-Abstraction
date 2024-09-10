@@ -33,13 +33,15 @@ class Dog(Animal):
 
     """
     To do: Write a make_sound() method for the Dog class to make the dog bark.
-
+    
     Instructions:
     - Implement the make_sound() method to return the sound made by the dog, which is "Woof!".
     
     Returns:
     - str: The sound made by the dog ("Woof!").
     """
+    def make_sound(self):
+        return "Woof!"
 
 class Cat(Animal):
     """
@@ -55,7 +57,8 @@ class Cat(Animal):
     Returns:
     - str: The sound made by the cat ("Meow!").
     """
-
+    def make_sound(self):
+        return "Meow!"
 class Duck(Animal):
     """
     Class representing a duck, inheriting from Animal.
@@ -70,3 +73,5 @@ class Duck(Animal):
     Returns:
     - str: The sound made by the duck ("Quack!").
     """
+    def make_sound(self):
+        return  "Quack!"
